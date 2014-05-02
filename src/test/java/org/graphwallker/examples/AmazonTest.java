@@ -16,6 +16,8 @@ import org.graphwalker.multipleModels.ModelHandler;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+
+// BOGDAN my comment test Git Repo
 public class AmazonTest {
 
   @Test
