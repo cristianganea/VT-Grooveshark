@@ -3,7 +3,9 @@ import org.apache.log4j.Logger;
 import org.graphwalker.Util;
 import org.graphwalker.examples.modelAPI.intf.MusicQueue;
 import org.graphwalker.generators.PathGenerator;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.io.File;
@@ -39,6 +41,7 @@ public class Grooveshark extends org.graphwalker.multipleModels.ModelAPI impleme
    * 
    */
   public void e_BaseURL() {
+      driver.get("http://www.grooveshark.com");
   }
 
 
@@ -47,6 +50,7 @@ public class Grooveshark extends org.graphwalker.multipleModels.ModelAPI impleme
    * 
    */
   public void e_EnterBaseURL() {
+      driver.get("http://www.grooveshark.com");
   }
 
 
@@ -87,6 +91,11 @@ public class Grooveshark extends org.graphwalker.multipleModels.ModelAPI impleme
    * 
    */
   public void e_Search() {
+      WebElement searchBar;
+      searchBar = driver.findElement(By.xpath("//div[@id='search-input-container']/input[@class='search']"));
+      searchBar.click();
+      searchBar.clear();
+      searchBar.sendKeys("happy\n");
   }
 
 
@@ -151,7 +160,7 @@ public class Grooveshark extends org.graphwalker.multipleModels.ModelAPI impleme
    * 
    */
   public void v_BaseURL() {
-      //sfdghjkl
+
   }
 
 
