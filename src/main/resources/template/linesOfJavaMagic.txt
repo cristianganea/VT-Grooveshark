@@ -1,0 +1,4 @@
+mvn install:install-file -Dfile="D:\proiecte\java\GraphWalkerSources\target\graphwalker-2.6.3-SNAPSHOT.jar" -DgroupId=org.graphwalker -DartifactId=graphwalker -Dversion=2.6.3 -Dpackaging=jar -DgeneratePom=true
+
+
+java -jar "D:\proiecte\java\GraphWalkerPrj\src\main\resources\lib\graphwalker.jar" source -f "D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml" -t "D:\proiecte\java\GraphWalkerPrj\src\main\resources\template\ModelAPI.template"

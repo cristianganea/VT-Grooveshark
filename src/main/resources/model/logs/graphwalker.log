@@ -1,0 +1,308 @@
+2014-05-02 17:23:45,011 [main] ERROR - java.lang.IllegalArgumentException: Could not get resource: Login.graphml
+	at org.graphwalker.Util.getFile(Util.java:1011)
+	at org.graphwalker.io.GraphML.load(GraphML.java:105)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:25:19,976 [main] ERROR - java.lang.IllegalArgumentException: Could not get resource: Login.graphml
+	at org.graphwalker.Util.getFile(Util.java:1011)
+	at org.graphwalker.io.GraphML.load(GraphML.java:105)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:25:24,356 [main] ERROR - java.lang.RuntimeException: Could not parse file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'. Vertex is missing mandatory label
+	at org.graphwalker.io.GraphML.parseFile(GraphML.java:435)
+	at org.graphwalker.io.GraphML.load(GraphML.java:107)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:28:45,316 [main] ERROR - java.lang.RuntimeException: Did not find a Start vertex with an out edge with a label.
+	at org.graphwalker.io.GraphML.findMotherAndSubgraphs(GraphML.java:597)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:487)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:36:52,820 [main] ERROR - java.lang.RuntimeException: Did not find a Start vertex with an out edge with a label.
+	at org.graphwalker.io.GraphML.findMotherAndSubgraphs(GraphML.java:597)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:487)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:37:52,945 [main] ERROR - No in-edges! Vertex: 'v_ResultFilter', INDEX=6 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+2014-05-02 17:37:52,947 [main] ERROR - java.lang.RuntimeException: No in-edges! Vertex: 'v_ResultFilter', INDEX=6 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+	at org.graphwalker.io.GraphML.checkForVerticesWithZeroInEdges(GraphML.java:751)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:491)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:40:04,710 [main] ERROR - No in-edges! Vertex: 'v_ResultFilter', INDEX=6 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+2014-05-02 17:40:04,712 [main] ERROR - java.lang.RuntimeException: No in-edges! Vertex: 'v_ResultFilter', INDEX=6 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+	at org.graphwalker.io.GraphML.checkForVerticesWithZeroInEdges(GraphML.java:751)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:491)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:40:41,558 [main] INFO  - Done merging
+2014-05-02 17:40:41,560 [main] ERROR - java.lang.IllegalArgumentException: Could not get resource: ModelAPI.template
+	at org.graphwalker.Util.getFile(Util.java:1011)
+	at org.graphwalker.ModelBasedTesting.setTemplate(ModelBasedTesting.java:538)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:882)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:40:47,986 [main] INFO  - Done merging
+2014-05-02 17:40:47,988 [main] ERROR - java.lang.IllegalArgumentException: Could not get resource: ModelAPI.template
+	at org.graphwalker.Util.getFile(Util.java:1011)
+	at org.graphwalker.ModelBasedTesting.setTemplate(ModelBasedTesting.java:538)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:882)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:40:57,140 [main] INFO  - Done merging
+2014-05-02 17:40:57,142 [main] ERROR - java.lang.IllegalArgumentException: Could not get resource: ModelAPI.template
+	at org.graphwalker.Util.getFile(Util.java:1011)
+	at org.graphwalker.ModelBasedTesting.setTemplate(ModelBasedTesting.java:538)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:882)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:41:01,780 [main] ERROR - No in-edges! Vertex: 'v_ResultFilter', INDEX=4 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+2014-05-02 17:41:01,782 [main] ERROR - java.lang.RuntimeException: No in-edges! Vertex: 'v_ResultFilter', INDEX=4 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+	at org.graphwalker.io.GraphML.checkForVerticesWithZeroInEdges(GraphML.java:751)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:491)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:41:54,272 [main] ERROR - No in-edges! Vertex: 'v_ResultFilter', INDEX=4 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+2014-05-02 17:41:54,274 [main] ERROR - java.lang.RuntimeException: No in-edges! Vertex: 'v_ResultFilter', INDEX=4 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+	at org.graphwalker.io.GraphML.checkForVerticesWithZeroInEdges(GraphML.java:751)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:491)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:42:47,038 [main] ERROR - No in-edges! Vertex: 'v_ResultFilter', INDEX=4 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+2014-05-02 17:42:47,040 [main] ERROR - java.lang.RuntimeException: No in-edges! Vertex: 'v_ResultFilter', INDEX=4 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+	at org.graphwalker.io.GraphML.checkForVerticesWithZeroInEdges(GraphML.java:751)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:491)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:42:54,337 [main] ERROR - No in-edges! Vertex: 'v_ResultFilter', INDEX=4 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+2014-05-02 17:42:54,338 [main] ERROR - java.lang.RuntimeException: No in-edges! Vertex: 'v_ResultFilter', INDEX=4 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+	at org.graphwalker.io.GraphML.checkForVerticesWithZeroInEdges(GraphML.java:751)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:491)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:46:22,552 [main] ERROR - No in-edges! Vertex: 'v_ResultFilter', INDEX=4 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+2014-05-02 17:46:22,554 [main] ERROR - java.lang.RuntimeException: No in-edges! Vertex: 'v_ResultFilter', INDEX=4 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+	at org.graphwalker.io.GraphML.checkForVerticesWithZeroInEdges(GraphML.java:751)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:491)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:47:04,795 [main] ERROR - No in-edges! Vertex: 'v_ResultFilter', INDEX=4 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+2014-05-02 17:47:04,797 [main] ERROR - java.lang.RuntimeException: No in-edges! Vertex: 'v_ResultFilter', INDEX=4 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+	at org.graphwalker.io.GraphML.checkForVerticesWithZeroInEdges(GraphML.java:751)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:491)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:47:22,525 [main] ERROR - No in-edges! Vertex: 'v_ResultFilter', INDEX=4 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+2014-05-02 17:47:22,527 [main] ERROR - java.lang.RuntimeException: No in-edges! Vertex: 'v_ResultFilter', INDEX=4 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+	at org.graphwalker.io.GraphML.checkForVerticesWithZeroInEdges(GraphML.java:751)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:491)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:48:25,584 [main] ERROR - No in-edges! Vertex: 'v_ResultFilter', INDEX=4 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+2014-05-02 17:48:25,586 [main] ERROR - java.lang.RuntimeException: No in-edges! Vertex: 'v_ResultFilter', INDEX=4 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+	at org.graphwalker.io.GraphML.checkForVerticesWithZeroInEdges(GraphML.java:751)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:491)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:49:36,244 [main] ERROR - No in-edges! Vertex: 'v_ResultFilter', INDEX=4 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+2014-05-02 17:49:36,245 [main] ERROR - java.lang.RuntimeException: No in-edges! Vertex: 'v_ResultFilter', INDEX=4 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+	at org.graphwalker.io.GraphML.checkForVerticesWithZeroInEdges(GraphML.java:751)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:491)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:50:03,555 [main] ERROR - No in-edges! Vertex: 'v_ResultFilter', INDEX=4 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+2014-05-02 17:50:03,557 [main] ERROR - java.lang.RuntimeException: No in-edges! Vertex: 'v_ResultFilter', INDEX=4 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+	at org.graphwalker.io.GraphML.checkForVerticesWithZeroInEdges(GraphML.java:751)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:491)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:50:13,223 [main] INFO  - Done merging
+2014-05-02 17:50:13,224 [main] ERROR - java.lang.IllegalArgumentException: Could not get resource: ModelAPI.template
+	at org.graphwalker.Util.getFile(Util.java:1011)
+	at org.graphwalker.ModelBasedTesting.setTemplate(ModelBasedTesting.java:538)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:882)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:50:25,193 [main] ERROR - No in-edges! Vertex: 'v_ResultFilter', INDEX=6 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+2014-05-02 17:50:25,195 [main] ERROR - java.lang.RuntimeException: No in-edges! Vertex: 'v_ResultFilter', INDEX=6 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+	at org.graphwalker.io.GraphML.checkForVerticesWithZeroInEdges(GraphML.java:751)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:491)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:50:57,447 [main] ERROR - No in-edges! Vertex: 'v_ResultFilter', INDEX=6 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+2014-05-02 17:50:57,448 [main] ERROR - java.lang.RuntimeException: No in-edges! Vertex: 'v_ResultFilter', INDEX=6 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+	at org.graphwalker.io.GraphML.checkForVerticesWithZeroInEdges(GraphML.java:751)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:491)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:51:12,333 [main] ERROR - No in-edges! Vertex: 'v_ResultFilter', INDEX=6 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+2014-05-02 17:51:12,335 [main] ERROR - java.lang.RuntimeException: No in-edges! Vertex: 'v_ResultFilter', INDEX=6 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+	at org.graphwalker.io.GraphML.checkForVerticesWithZeroInEdges(GraphML.java:751)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:491)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:52:37,395 [main] ERROR - No in-edges! Vertex: 'v_ResultFilter', INDEX=6 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+2014-05-02 17:52:37,397 [main] ERROR - java.lang.RuntimeException: No in-edges! Vertex: 'v_ResultFilter', INDEX=6 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+	at org.graphwalker.io.GraphML.checkForVerticesWithZeroInEdges(GraphML.java:751)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:491)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:54:26,122 [main] ERROR - No in-edges! Vertex: 'v_ResultFilter', INDEX=6 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+2014-05-02 17:54:26,124 [main] ERROR - java.lang.RuntimeException: No in-edges! Vertex: 'v_ResultFilter', INDEX=6 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+	at org.graphwalker.io.GraphML.checkForVerticesWithZeroInEdges(GraphML.java:751)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:491)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:56:06,472 [main] ERROR - java.lang.RuntimeException: Could not parse file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'. Vertex is missing mandatory label
+	at org.graphwalker.io.GraphML.parseFile(GraphML.java:435)
+	at org.graphwalker.io.GraphML.load(GraphML.java:107)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:56:29,579 [main] ERROR - java.lang.RuntimeException: Could not parse file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'. Vertex is missing mandatory label
+	at org.graphwalker.io.GraphML.parseFile(GraphML.java:435)
+	at org.graphwalker.io.GraphML.load(GraphML.java:107)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:57:01,959 [main] ERROR - java.lang.RuntimeException: Could not parse file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'. Vertex is missing mandatory label
+	at org.graphwalker.io.GraphML.parseFile(GraphML.java:435)
+	at org.graphwalker.io.GraphML.load(GraphML.java:107)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:57:40,273 [main] ERROR - java.lang.RuntimeException: Did not find a Start vertex with an out edge with a label.
+	at org.graphwalker.io.GraphML.findMotherAndSubgraphs(GraphML.java:597)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:487)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:57:45,795 [main] ERROR - java.lang.RuntimeException: Did not find a Start vertex with an out edge with a label.
+	at org.graphwalker.io.GraphML.findMotherAndSubgraphs(GraphML.java:597)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:487)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 17:59:11,885 [main] ERROR - No in-edges! Vertex: 'v_SongDisplay', INDEX=9 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+2014-05-02 17:59:11,886 [main] ERROR - java.lang.RuntimeException: No in-edges! Vertex: 'v_SongDisplay', INDEX=9 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+	at org.graphwalker.io.GraphML.checkForVerticesWithZeroInEdges(GraphML.java:751)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:491)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 18:01:05,372 [main] ERROR - No in-edges! Vertex: 'v_SongDisplay', INDEX=9 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+2014-05-02 18:01:05,374 [main] ERROR - java.lang.RuntimeException: No in-edges! Vertex: 'v_SongDisplay', INDEX=9 is not reachable, from file: 'D:\proiecte\java\GraphWalkerPrj\src\main\resources\model\MusicQueue.graphml'
+	at org.graphwalker.io.GraphML.checkForVerticesWithZeroInEdges(GraphML.java:751)
+	at org.graphwalker.io.GraphML.mergeAllGraphs(GraphML.java:491)
+	at org.graphwalker.io.GraphML.load(GraphML.java:128)
+	at org.graphwalker.ModelBasedTesting.readGraph(ModelBasedTesting.java:460)
+	at org.graphwalker.CLI.RunCommandSource(CLI.java:881)
+	at org.graphwalker.CLI.run(CLI.java:262)
+	at org.graphwalker.CLI.main(CLI.java:156)
+
+2014-05-02 18:16:49,526 [main] INFO  - Done merging
+2014-05-02 18:18:16,112 [main] INFO  - Done merging
