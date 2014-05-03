@@ -5,7 +5,7 @@ public interface MusicQueue {
    * This method implements the Edge 'e_Album'
    * 
    */
-  public void e_Album();
+  public void e_Album() throws InterruptedException;
 
 
 
@@ -13,7 +13,7 @@ public interface MusicQueue {
    * This method implements the Edge 'e_Artist'
    * 
    */
-  public void e_Artist();
+  public void e_Artist() throws InterruptedException;
 
 
 
@@ -21,7 +21,7 @@ public interface MusicQueue {
    * This method implements the Edge 'e_BaseURL'
    * 
    */
-  public void e_BaseURL();
+  public void e_BaseURL() throws InterruptedException;
 
 
 
@@ -37,7 +37,7 @@ public interface MusicQueue {
    * This method implements the Edge 'e_Filter'
    * 
    */
-  public void e_Filter();
+  public void e_Filter() throws InterruptedException;
 
 
 
@@ -45,7 +45,7 @@ public interface MusicQueue {
    * This method implements the Edge 'e_FilterAlbum'
    * 
    */
-  public void e_FilterAlbum();
+  public void e_FilterAlbum() throws InterruptedException;
 
 
 
@@ -53,7 +53,7 @@ public interface MusicQueue {
    * This method implements the Edge 'e_FilterArtist'
    * 
    */
-  public void e_FilterArtist();
+  public void e_FilterArtist() throws InterruptedException;
 
 
 
@@ -61,7 +61,7 @@ public interface MusicQueue {
    * This method implements the Edge 'e_FilterSong'
    * 
    */
-  public void e_FilterSong();
+  public void e_FilterSong() throws InterruptedException;
 
 
 
@@ -69,7 +69,7 @@ public interface MusicQueue {
    * This method implements the Edge 'e_Search'
    * 
    */
-  public void e_Search();
+  public void e_Search() throws InterruptedException;
 
 
 
@@ -77,7 +77,7 @@ public interface MusicQueue {
    * This method implements the Edge 'e_SearchAlbum'
    * 
    */
-  public void e_SearchAlbum();
+  public void e_SearchAlbum() throws InterruptedException;
 
 
 
@@ -85,7 +85,7 @@ public interface MusicQueue {
    * This method implements the Edge 'e_SearchArtist'
    * 
    */
-  public void e_SearchArtist();
+  public void e_SearchArtist() throws InterruptedException;
 
 
 
@@ -93,7 +93,7 @@ public interface MusicQueue {
    * This method implements the Edge 'e_SearchSong'
    * 
    */
-  public void e_SearchSong();
+  public void e_SearchSong() throws InterruptedException;
 
 
 
@@ -101,7 +101,7 @@ public interface MusicQueue {
    * This method implements the Edge 'e_Song'
    * 
    */
-  public void e_Song();
+  public void e_Song() throws InterruptedException;
 
 
 
@@ -117,7 +117,7 @@ public interface MusicQueue {
    * This method implements the Vertex 'v_AlbumDisplay'
    * 
    */
-  public void v_AlbumDisplay();
+  public void v_AlbumDisplay() throws InterruptedException;
 
 
 
@@ -125,7 +125,7 @@ public interface MusicQueue {
    * This method implements the Vertex 'v_ArtistDisplay'
    * 
    */
-  public void v_ArtistDisplay();
+  public void v_ArtistDisplay() throws InterruptedException;
 
 
 
@@ -165,7 +165,7 @@ public interface MusicQueue {
    * This method implements the Vertex 'v_SongDisplay'
    * 
    */
-  public void v_SongDisplay();
+  public void v_SongDisplay() throws InterruptedException;
 
 
 
