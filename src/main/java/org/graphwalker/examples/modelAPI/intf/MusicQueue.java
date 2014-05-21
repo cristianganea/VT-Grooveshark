@@ -157,7 +157,7 @@ public interface MusicQueue {
    * This method implements the Vertex 'v_SearchResult'
    * 
    */
-  public void v_SearchResult();
+  public void v_SearchResult() throws InterruptedException;
 
 
 

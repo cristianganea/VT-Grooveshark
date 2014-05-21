@@ -28,8 +28,9 @@ public class Grooveshark extends org.graphwalker.multipleModels.ModelAPI impleme
    * 
    */
   public void e_Album() throws InterruptedException {
-
-	  driver.findElement(By.linkText("Despicable me 2")).click();
+      By element = By.linkText("Despicable me 2");
+      verifyElementPresent(element);
+	  driver.findElement(element).click();
 //      By element = By.xpath("//div[contains(@class, 'module-row-cell') and contains(@class, 'album')]/a[contains(@class, 'secondary-text') and contains(@class, 'tooltip-for-full-text')]");
 //      verifyElementPresent(element);
 //      WebElement webElement = driver.findElement(element);
@@ -42,7 +43,9 @@ public class Grooveshark extends org.graphwalker.multipleModels.ModelAPI impleme
    * 
    */
   public void e_Artist() throws InterruptedException {
-	  driver.findElement(By.linkText("Pharrel Williams")).click();
+      By element = By.linkText("Pharrel Williams");
+      verifyElementPresent(element);
+	  driver.findElement(element).click();
 //      By element = By.xpath("//div[contains(@class, 'module-row-cell') and contains(@class, 'artist')]/a[contains(@class, 'secondary-text') and contains(@class, 'tooltip-for-full-text')]");
 //      verifyElementPresent(element);
 //      WebElement webElement = driver.findElement(element);
@@ -214,6 +217,7 @@ public class Grooveshark extends org.graphwalker.multipleModels.ModelAPI impleme
    * 
    */
   public void v_AlbumDisplay() throws InterruptedException {
+      Thread.sleep(1000);
 //      By element = By.xpath("//div[contains(@class, 'album') and contains(@class, 'main')]");
 //      verifyElementPresent(element);
 //      Assert.assertTrue(driver.findElement(element) != null);
@@ -226,6 +230,7 @@ public class Grooveshark extends org.graphwalker.multipleModels.ModelAPI impleme
    * 
    */
   public void v_ArtistDisplay() throws InterruptedException {
+      Thread.sleep(1000);
       By element = By.xpath("//div[contains(@class, 'artist') and contains(@class, 'main')]");
       verifyElementPresent(element);
       Assert.assertTrue(driver.findElement(element) != null);
@@ -263,7 +268,8 @@ public class Grooveshark extends org.graphwalker.multipleModels.ModelAPI impleme
    * This method implements the Vertex 'v_SearchResult'
    * 
    */
-  public void v_SearchResult() {
+  public void v_SearchResult() throws InterruptedException {
+      Thread.sleep(1000);
       Assert.assertTrue(driver.getTitle().matches("^All Song Results: happy.*"));
   }
 
@@ -273,6 +279,7 @@ public class Grooveshark extends org.graphwalker.multipleModels.ModelAPI impleme
    * 
    */
   public void v_SongDisplay() throws InterruptedException {
+      Thread.sleep(1000);
 	  new Actions(driver).doubleClick(driver.findElement(By.cssSelector("span.title.tooltip-for-full-text"))).build().perform();
 //      By element = By.xpath("//div[contains(@class, 'song') and contains(@class, 'main')]");
 //      verifyElementPresent(element);
